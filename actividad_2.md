@@ -144,3 +144,9 @@ Durante una inspeccionde rutina, se mide la temperatura de un motot de turbina. 
 Durante un ensayo el banco de un motor a reaccion, se mide el nivel de combustible cada minuto y se detiene el registro cuando el combustible baja del 10%. Mostrar el tiempo total de operacion 
 
 ![COMBUSTIBLE](/IMAGENES_PARA_PROGRAMACION/IMAGEN2.jpeg)
+
+## EJERCICIO 6
+
+Un sistema de temperatura mide cada 5 minutos la temperatura en una cabina durante una hora. Si en algun momento detecta una temperatura mayor a 27C o menos a 18C debe indicar que se active el sistema de climatizacion
+
+
