@@ -49,3 +49,78 @@ NIST (FIPS PUB 24): documento del gobierno de EE. UU. sobre símbolos y uniformi
 6. Al realizar una tarea compleja, es conveniente poner  comentarios que expresen o ayuden a entender lo que  hayamos hecho. 
 7. Si la construcción del diagrama de flujo requiriera más de  una hoja, debemos utilizar los conectores adecuados y  enumerar las páginas correspondientes. 
 8. No puede llegar más de una línea a un símbolo  determinado
+
+### Un acuario necesita determinar cuantos litros o galones de agua caben en un acuario, pero solo dispone de una cinta metrica. Diseña un algoritmo para solucionar el problema.
+
+**DATOS DE ENTRADA**
+- LARGO
+- ANCHO
+- ALTO
+- UNIDAD DE SALIDA
+
+**DATOS DE SALIDA**
+- VOLUMEN EN LITROS 
+- VOLUMEN EN GALONES
+
+**PSEUDOCODIGO**
+INICIO
+MOSTRAR "Por favor ingrese las medidas del tanque"
+Leer Largo, Ancho y Alto
+Mostrar "Ingresa L para litros y G para galones"
+Leer Unidad
+
+Volumen=Largo*Ancho*Alto //Volumen en cm^3 equivalente a ml
+Volumen lt=Volumen/1000 // en Litros 
+
+Si Unidad ="G"
+          Volumen gl=Volumen lt*2.2
+          Mostrar Volumen gl
+Si no
+        Mostrar Volumen lt
+Fin si
+Fin
+
+### Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo.
+
+**DATOS DE ENTRADA**
+
+
+|VARIABLE| NOMBRE | DESCRIPCION |
+|------- | ----------- | ------- |
+| X |LAPIZ | CANTIDAD DE LAPICES |
+
+**DATOS DE SALIDA**
+
+|VARIABLE|
+
+INICIO
+Mostrar "Por favor ingrese la cantidad de lapices"
+Leer CANTIDAD
+
+# Ejercicios 
+## PSEUDOCODIGO
+
+INICIO
+MIENTRAS VA!= -1
+     LEER VA
+
+### EJERCICIO 3
+Escriba un algortimo para imprimir los numeros del 5 hasta el 5000 ( multiplos de 5) utilizando bucle for
+INICIO 
+Desde N=5 hasta N=5000,  N=N+5
+     Mostrar N
+Fin desde 
+fin
+
+#### EJERCICIO 4
+Se requiere un algoritmo para determinar, de N cantidades ingresadas por teclado, cuantas son cero, cuantas son menores a cero y cuantas son mayores a cero 
+
+INICIO
+Leer N
+
+ceros=0
+Positivos=0
+Negativos=0
+
+Mientras 
+Si N=0, Ceros =Ceros +1
