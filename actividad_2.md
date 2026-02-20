@@ -39,6 +39,8 @@ ISO 5807:1985 (estándar internacional de símbolos y convenciones de diagramas 
 
 NIST (FIPS PUB 24): documento del gobierno de EE. UU. sobre símbolos y uniformidad en flowcharts.
 
+![imagen](imagen3.jpeg)
+
 ## 📔 Reglas para el uso de diagramas de flujo
 
 1. Todo diagrama de flujo debe tener un **inicio y** un **fin.** 
@@ -91,11 +93,22 @@ Fin
 
 **DATOS DE SALIDA**
 
-|VARIABLE|
+|VARIABLE|DESCRIPCION|
+|------|--------|
+|UNIDAD|VALOR DEL LAPIZ|
+|TOTAL|CUANTO ES EL TOTAL|
 
 INICIO
 Mostrar "Por favor ingrese la cantidad de lapices"
 Leer CANTIDAD
+Si cantidad mayor igual 1000
+Unidad=85
+Si no
+Unidad=90
+Fin si
+Total=Cantidad*Unidad
+Mostrar total
+Fin
 
 # Ejercicios 
 ## PSEUDOCODIGO
@@ -131,7 +144,7 @@ Si N=0, Ceros =Ceros +1
 
 En un pista de pruebas de aeronaves, el sistema debe verificar si el peso total de la aeronave, inlcuyendo combustible y carga, supera el limite maximo permitido para el despegue. Depedndiendo del resultado, el sistema debera indicar si la aeronave esta lista para despegar o si debe reducir carga p combustible.
 
-![AVION](/IMAGENES_PARA_PROGRAMACION/IMAGEN.jpeg)
+![AVION](IMAGEN.jpeg)
 
 
 ## EJERCICIO 2
@@ -143,7 +156,7 @@ Durante una inspeccionde rutina, se mide la temperatura de un motot de turbina. 
 
 Durante un ensayo el banco de un motor a reaccion, se mide el nivel de combustible cada minuto y se detiene el registro cuando el combustible baja del 10%. Mostrar el tiempo total de operacion 
 
-![COMBUSTIBLE](/IMAGENES_PARA_PROGRAMACION/IMAGEN2.jpeg)
+![COMBUSTIBLE](IMAGEN2.jpeg)
 
 ## EJERCICIO 6
 
